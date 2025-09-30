@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>履歷表 - 盧 毅軒</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+  <div class="max-w-3xl mx-auto p-6 space-y-8">
+    <!-- Header -->
+    <header class="text-center space-y-2">
+      <h1 class="text-3xl font-bold">盧 毅軒</h1>
+      <p class="text-lg text-gray-600">中原大學 電機資訊學院 智慧運算與大數據學士班 學生</p>
+    </header>
+
+    <!-- About Me -->
+    <section>
+      <h2 class="text-xl font-semibold border-b pb-1 mb-2">關於我</h2>
+      <p>
+        畢業於台北市南港高中，目前就讀於中原大學電機資訊學院智慧運算與大數據學士班。
+      </p>
+    </section>
+
+    <!-- Interests -->
+    <section>
+      <h2 class="text-xl font-semibold border-b pb-1 mb-2">興趣</h2>
+      <ul class="list-disc list-inside space-y-1">
+        <li>打桌球、排球和撞球</li>
+        <li>看小說（最愛《全知讀者視角》）</li>
+        <li>聽音樂（超愛汪蘇龍的歌）</li>
+      </ul>
+    </section>
+
+    <!-- Music Experience -->
+    <section>
+      <h2 class="text-xl font-semibold border-b pb-1 mb-2">音樂訓練經歷</h2>
+      <ul class="list-disc list-inside space-y-1">
+        <li>鋼琴（學了六年）</li>
+        <li>直笛（國小參加直笛隊，並在比賽中獲得第一名）</li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section>
+      <h2 class="text-xl font-semibold border-b pb-1 mb-2">聯絡方式</h2>
+      <ul class="space-y-1">
+        <li>📧 Email: <a href="mailto:looyee4104@gmail.com" class="text-blue-600 hover:underline">looyee4104@gmail.com</a></li>
+        <li>📷 Instagram: <a href="https://www.instagram.com/47loo_yee?igsh=dTZ4amticzBoM2ww&utm_source=qr" target="_blank" class="text-blue-600 hover:underline">點我點我</a></li>
+      </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center text-gray-500 text-sm pt-6 border-t">
+      <p>© 2025 盧 毅軒. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
