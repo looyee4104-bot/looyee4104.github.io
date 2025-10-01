@@ -16,32 +16,42 @@ color: #333;
 header {
 background: linear-gradient(135deg, #4a90e2, #357abd);
 color: white;
-padding: 40px 20px 20px;
+padding: 60px 20px 40px;
 text-align: center;
 position: relative;
 }
 header img {
-width: 150px;
-height: 150px;
+width: 220px;
+height: 220px;
 border-radius: 50%;
-border: 4px solid white;
+border: 5px solid white;
 object-fit: cover;
 position: absolute;
-bottom: -75px;
+bottom: -110px;
 left: 50%;
 transform: translateX(-50%);
-box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+box-shadow: 0 4px 15px rgba(0,0,0,0.25);
 }
 header h1 {
 margin: 0;
-font-size: 28px;
+font-size: 32px;
 }
 header p {
-margin: 5px 0;
+margin: 6px 0;
+font-size: 16px;
+color: #f9f9f9;
+}
+header a {
+color: #ffdd57;
+text-decoration: none;
+font-weight: bold;
+}
+header a:hover {
+text-decoration: underline;
 }
 .container {
 max-width: 800px;
-margin: 100px auto 40px;
+margin: 150px auto 40px;
 padding: 20px;
 }
 .section {
@@ -69,13 +79,30 @@ padding: 0;
 ul li {
 margin-bottom: 10px;
 }
-a {
-color: #4a90e2;
-text-decoration: none;
+.skill {
+margin: 10px 0;
 }
-a:hover {
-text-decoration: underline;
+.skill-name {
+margin-bottom: 5px;
+font-weight: bold;
 }
+.skill-bar {
+width: 100%;
+background: #ddd;
+border-radius: 20px;
+overflow: hidden;
+height: 20px;
+}
+.skill-level {
+height: 100%;
+text-align: right;
+padding-right: 8px;
+color: white;
+line-height: 20px;
+font-size: 12px;
+}
+.python { width: 85%; background: #4caf50; } /* 綠色 */
+.cpp { width: 70%; background: #2196f3; } /* 藍色 */
 footer {
 text-align: center;
 padding: 15px;
@@ -89,9 +116,10 @@ font-size: 14px;
 <header>
 <h1>盧毅軒</h1>
 <p>智慧運算與大數據學士班｜中原大學</p>
-<p>Email: <a href="mailto:looyee4104@gmail.com" style="color:white;">looyee4104@gmail.com</a></p>
+<p>Email: <a href="mailto:looyee4104@gmail.com">looyee4104@gmail.com</a></p>
+<p>Phone: <a href="tel:0906716630">0906-716-630</a></p>
 <p>
-<a href="https://www.instagram.com/47loo_yee?igsh=dTZ4amticzBoM2ww&utm_source=qr" target="_blank" style="color:white;">
+<a href="https://www.instagram.com/47loo_yee?igsh=dTZ4amticzBoM2ww&utm_source=qr" target="_blank">
 Instagram
 </a>
 </p>
@@ -124,6 +152,18 @@ Instagram
 <li>學習鋼琴六年</li>
 <li>國小直笛隊成員，曾參加比賽並獲得第一名</li>
 </ul>
+</div>
+
+<div class="section">
+<h2>技能</h2>
+<div class="skill">
+<div class="skill-name">Python</div>
+<div class="skill-bar"><div class="skill-level python">85%</div></div>
+</div>
+<div class="skill">
+<div class="skill-name">C++</div>
+<div class="skill-bar"><div class="skill-level cpp">70%</div></div>
+</div>
 </div>
 </div>
 
