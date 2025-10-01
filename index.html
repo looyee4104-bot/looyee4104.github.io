@@ -1,59 +1,134 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>履歷表 - 盧毅軒</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>盧毅軒的履歷</title>
+<style>
+body {
+font-family: "Microsoft JhengHei", Arial, sans-serif;
+line-height: 1.6;
+margin: 0;
+padding: 0;
+background-color: #eef2f7;
+color: #333;
+}
+header {
+background: linear-gradient(135deg, #4a90e2, #357abd);
+color: white;
+padding: 40px 20px 20px;
+text-align: center;
+position: relative;
+}
+header img {
+width: 150px;
+height: 150px;
+border-radius: 50%;
+border: 4px solid white;
+object-fit: cover;
+position: absolute;
+bottom: -75px;
+left: 50%;
+transform: translateX(-50%);
+box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+header h1 {
+margin: 0;
+font-size: 28px;
+}
+header p {
+margin: 5px 0;
+}
+.container {
+max-width: 800px;
+margin: 100px auto 40px;
+padding: 20px;
+}
+.section {
+background: white;
+padding: 20px;
+margin-bottom: 20px;
+border-radius: 10px;
+box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+transition: transform 0.2s, box-shadow 0.2s;
+}
+.section:hover {
+transform: translateY(-3px);
+box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+h2 {
+color: #4a90e2;
+margin-top: 0;
+border-bottom: 2px solid #4a90e2;
+padding-bottom: 5px;
+}
+ul {
+list-style-type: none;
+padding: 0;
+}
+ul li {
+margin-bottom: 10px;
+}
+a {
+color: #4a90e2;
+text-decoration: none;
+}
+a:hover {
+text-decoration: underline;
+}
+footer {
+text-align: center;
+padding: 15px;
+background: #357abd;
+color: white;
+font-size: 14px;
+}
+</style>
 </head>
-<body class="bg-gray-50 text-gray-900 font-sans">
-  <div class="max-w-3xl mx-auto p-6 space-y-8">
-    <!-- Header -->
-    <header class="text-center space-y-2">
-      <h1 class="text-3xl font-bold">盧毅軒</h1>
-      <p class="text-lg text-gray-600">中原大學 電機資訊學院 智慧運算與大數據學士班 學生</p>
-    </header>
+<body>
+<header>
+<h1>盧毅軒</h1>
+<p>智慧運算與大數據學士班｜中原大學</p>
+<p>Email: <a href="mailto:looyee4104@gmail.com" style="color:white;">looyee4104@gmail.com</a></p>
+<p>
+<a href="https://www.instagram.com/47loo_yee?igsh=dTZ4amticzBoM2ww&utm_source=qr" target="_blank" style="color:white;">
+Instagram
+</a>
+</p>
+<img src="https://github.com/looyee4104-bot/Computer-Science-course/blob/90d19236cce47052864a1df5293dc10924df87ed/S__216236036.jpg?raw=true" alt="個人照片">
+</header>
 
-    <!-- About Me -->
-    <section>
-      <h2 class="text-xl font-semibold border-b pb-1 mb-2">關於我</h2>
-      <p>
-        畢業於台北市南港高中，目前就讀於中原大學電機資訊學院智慧運算與大數據學士班
-      </p>
-    </section>
+<div class="container">
+<div class="section">
+<h2>學歷</h2>
+<ul>
+<li><strong>中原大學</strong> — 智慧運算與大數據學士班（在學中）</li>
+<li><strong>台北市南港高中</strong> — 高中畢業</li>
+</ul>
+</div>
 
-    <!-- Interests -->
-    <section>
-      <h2 class="text-xl font-semibold border-b pb-1 mb-2">興趣</h2>
-      <ul class="list-disc list-inside space-y-1">
-        <li>打桌球、排球和撞球</li>
-        <li>看小說（最愛《全知讀者視角》）</li>
-        <li>聽音樂（超愛汪蘇瀧的歌）</li>
-      </ul>
-    </section>
+<div class="section">
+<h2>興趣</h2>
+<ul>
+<li>桌球</li>
+<li>排球</li>
+<li>撞球</li>
+<li>看小說</li>
+<li>聽音樂</li>
+</ul>
+</div>
 
-    <!-- Music Experience -->
-    <section>
-      <h2 class="text-xl font-semibold border-b pb-1 mb-2">音樂訓練經歷</h2>
-      <ul class="list-disc list-inside space-y-1">
-        <li>鋼琴（學了六年）</li>
-        <li>直笛（國小參加直笛隊，並在比賽中獲得第一名）</li>
-      </ul>
-    </section>
+<div class="section">
+<h2>音樂經歷</h2>
+<ul>
+<li>學習鋼琴六年</li>
+<li>國小直笛隊成員，曾參加比賽並獲得第一名</li>
+</ul>
+</div>
+</div>
 
-    <!-- Contact -->
-    <section>
-      <h2 class="text-xl font-semibold border-b pb-1 mb-2">聯絡方式</h2>
-      <ul class="space-y-1">
-        <li>📧 Email: <a href="mailto:looyee4104@gmail.com" class="text-blue-600 hover:underline">looyee4104@gmail.com</a></li>
-        <li>📷 Instagram: <a href="https://www.instagram.com/47loo_yee?igsh=dTZ4amticzBoM2ww&utm_source=qr" target="_blank" class="text-blue-600 hover:underline">點我點我</a></li>
-      </ul>
-    </section>
-
-    <!-- Footer -->
-    <footer class="text-center text-gray-500 text-sm pt-6 border-t">
-      <p>© 2025 盧毅軒. All rights reserved.</p>
-    </footer>
-  </div>
+<footer>
+&copy; 2025 盧毅軒. All rights reserved.
+</footer>
 </body>
 </html>
